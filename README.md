@@ -14,14 +14,14 @@ Este proyecto implementa un **pipeline de datos** utilizando la API de [Spacefli
 
 ## **Tecnologías Utilizadas**  
 🔹 **Extracción de datos:** Python + Requests + API Spaceflight News  
-🔹 **Procesamiento:** Apache Spark sobre Dataproc  
+🔹 **Procesamiento:** Apache Spark sobre Dataproc (Modificación BigQuery con funciones SQL avanzadas) 
 🔹 **Almacenamiento:** Google Cloud Storage (GCS) y BigQuery  
 🔹 **Orquestación:** Cloud Composer (Airflow)  
 🔹 **Análisis SQL:** Queries en BigQuery  
 
 ## **Flujo del Pipeline**  
 1️⃣ **Ingesta:** DAG de Airflow extrae datos de la API y los guarda en **GCS**.  
-2️⃣ **Procesamiento:** Job en **Dataproc (Spark)** limpia, deduplica y clasifica los datos.  
+2️⃣ **Procesamiento:** Job en **Dataproc (Spark)** limpia, deduplica y clasifica los datos(Modificación BigQuery con funciones SQL avanzadas).  
 3️⃣ **Almacenamiento:** Los datos transformados se almacenan en **BigQuery**.  
 4️⃣ **Análisis:** Queries para tendencias por mes y ranking de fuentes influyentes.  
 5️⃣ **Automatización:** Airflow ejecuta el flujo de trabajo diariamente.  
