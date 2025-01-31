@@ -1,5 +1,3 @@
-Aquí tienes un **README** optimizado para **Google Cloud Platform (GCP)** con **Cloud Composer (Airflow)**:  
-
 ---
 
 # **Pipeline de Análisis de Tendencias en la Industria Espacial** 🚀  
@@ -79,5 +77,5 @@ ORDER BY mes DESC, cantidad DESC;
 
 ---
 
-📌 **Contacto:** *tuemail@correo.com*  
+📌 **Contacto:** *juancarloscm@yahoo.com*  
 Si tienes dudas o sugerencias, ¡abre un issue en el repo! 🚀
